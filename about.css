@@ -1,0 +1,28 @@
+body{
+  background-color: #f9d9ac;
+}
+p{
+  background-color: #f4cfa4;
+  font-family: Verdana, "Swiss", "Ubuntu", fantasy, Arial, "Cambria";
+  font-size: 24px;
+  color: #592a10;
+  margin: 20px 10px;
+  padding: 20px 25px 400px 25px;
+  text-align: center;
+}
+.real-time-systems {
+    border-radius: 50%;
+}.drone {
+    border-radius: 50%;
+}.virtual-reality {
+    border-radius: 50%;
+}.aerospace {
+    border-radius: 50%;
+}
+.artificial-intelligent {
+    border-radius: 50%;
+}.security {
+    border-radius: 50%;
+}.autonomous-car {
+    border-radius: 50%;
+}

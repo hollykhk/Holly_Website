@@ -1,0 +1,206 @@
+body {
+  background-color: #f4cfa4;
+}
+.pure-img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+#layout,
+#menu,
+.menu-link {
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -ms-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+}
+#layout {
+  position: relative;
+  left: 2px;
+  padding-left: 0;
+}
+#layout.active #menu {
+  left: 150px;
+  width: 150px;
+  display: block;
+}
+#layout.active .menu-link {
+  left: 150px;
+  display: block;
+}
+.content {
+  margin: 0 auto;
+  padding: 0 2em;
+  max-width: 800px;
+  margin-bottom: 20px;
+  line-height: 1.4em;
+}
+.header {
+  margin: 10;
+  color: #2b2125;
+  text-align: center;
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  padding: 0.5em 2em 1em;
+  border-bottom: 1px solid #eda863;
+}
+.header h1 {
+  margin: 0.1em 0;
+  color: #b25631;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+  font-size: 4.5em;
+  font-weight: 300;
+}
+.header h2 {
+  font-weight: 200;
+  font-size: 18px;
+  font-family: Cambria, fantasy, Palatino;
+  color: #ed8763;
+  padding: 0;
+  margin-top: 0;
+}
+.content-paragraph {
+  color: #56260e;
+  list-style-type: none;
+  font-family: "Hoefler Text", "Baskerville old face", Garamond, "Times New Roman", serif;
+  font-size: 12.5px;
+  text-align: center;
+}
+
+.content-subhead {
+  margin: 25px 0 20px 0;
+  font-weight: 200;
+  font-size: 28px;
+  text-align: center;
+  color: #511;
+}
+#menu {
+  cursor: pointer;
+  text-align: center;
+  margin-left: -150px;
+  width: 150px;
+  padding: 12px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 10000;
+  /* so the menu or its navicon stays above all content */
+  background: #422203;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+#menu a {
+  color: #d98;
+  border: none;
+  font-family: monaco, "Consolas", "Lucida Consola", monospace;
+  font-size: 16px;
+  padding: 0.5em 0 0.5em 0;
+}
+#menu .pure-menu,
+#menu .pure-menu ul {
+  border: none;
+  background: transparent;
+}
+#menu .pure-menu ul,
+#menu .pure-menu .menu-item-divided {
+  border-top: 1px solid #431808;
+}
+#menu .pure-menu li a:hover,
+#menu .pure-menu li a:focus {
+  background: #1e1508;
+}
+#menu .pure-menu-selected,
+#menu .pure-menu-heading {
+  text-decoration: none;
+}
+#menu .pure-menu-selected a {
+  color: #fff;
+}
+#menu .pure-menu-heading {
+  font-size: 180%;
+  font-family: "Open Sans", arial, sans-serif, "Swiss", "Ubuntu";
+  color: #fff;
+  margin: 0;
+}
+.pure-menu-item a{
+  text-decoration: none;
+}
+.pure-menu-item{
+  margin-top: 10px;
+  text-align: justify;
+  list-style-type: none;
+}
+.menu-link {
+  position: fixed;
+  display: block;
+  /* show this only on small screens */
+  top: 0;
+  left: 0;
+  background: #000;
+  background: rgba(0, 0, 0, 0.7);
+  font-family: "Open Sans", arial, sans-serif, "Swiss", "Ubuntu";
+  font-size: 10px;
+  z-index: 10;
+  height: auto;
+  padding: 0.3em 1.2em;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  background: #3f1406;
+}
+
+.menu-link span {
+  position: relative;
+  display: block;
+}
+.menu-link span,
+.menu-link span:before,
+.menu-link span:after {
+  background-color: #fff;
+  width: 50%;
+  height: 0.1em;
+}
+
+.menu-link span:before,
+.menu-link span:after {
+  position: absolute;
+  margin-top: -0.4em;
+  content: " ";
+}
+
+.menu-link span:after {
+  margin-top: 0.4em;
+}
+
+@media (min-width: 48em) {
+  .header,
+  .content {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  #layout {
+    padding-left: 150px;
+    /* left col width "#menu" */
+    left: 0;
+  }
+  #menu {
+    left: 150px;
+  }
+  .menu-link {
+    position: fixed;
+    left: 150px;
+    display: block;
+  }
+  #layout.active .menu-link {
+    left: 150px;
+  }
+}
+
+@media (max-width: 48em) {
+  #layout.active {
+    position: relative;
+    left: 150px;
+  }
+}
+
