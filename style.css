@@ -29,6 +29,7 @@ body {
   display: block;
 }
 .content {
+  font-size: 11px;
   margin: 0 auto;
   padding: 0 2em;
   max-width: 800px;
@@ -46,7 +47,7 @@ body {
 .header h1 {
   margin: 0.1em 0;
   color: #b25631;
-  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+  font-family: Didot, Copperplate, "Copperplate Gothic Light", fantasy;
   font-size: 4.5em;
   font-weight: 300;
 }
@@ -69,7 +70,7 @@ body {
 .content-subhead {
   margin: 25px 0 20px 0;
   font-weight: 200;
-  font-size: 28px;
+  font-size: 30px;
   text-align: center;
   color: #511;
 }
