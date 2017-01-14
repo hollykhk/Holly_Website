@@ -1,5 +1,4 @@
-# hollykwan-website
+# My personal website
+# Live at hollykwan.com
 
-#My personal website. Live at hollykwan.com
-
-It is made 100% By HOLLY KWAN
+It is made 100% by HOLLY KWAN
