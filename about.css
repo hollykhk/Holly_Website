@@ -28,6 +28,9 @@ p{
 }
 li{
     list-style-type: none;
-    font-size:14px;
+    font-size:24px;
     font-family: Verdana, "Swiss", "Ubuntu", fantasy, Arial, "Cambria";
+    text-align: center;
+    color: #592a10;
+    font-weight: bold;
 }
