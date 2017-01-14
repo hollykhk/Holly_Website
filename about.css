@@ -26,3 +26,8 @@ p{
 }.autonomous-car {
     border-radius: 50%;
 }
+li{
+    list-style-type: none;
+    font-size:14px;
+    font-family: Verdana, "Swiss", "Ubuntu", fantasy, Arial, "Cambria";
+}
