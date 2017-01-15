@@ -59,18 +59,25 @@ body {
   padding: 0;
   margin-top: 0;
 }
-p1.content-paragraph {
+p1.paragraph-one {
   color: #56260e;
   list-style-type: none;
   font-family: "Hoefler Text", "Baskerville old face", Garamond, "Times New Roman", serif;
-  font-size: 15px;
+  font-size: 16px;
   text-align: center;
 }
-p2.content-paragraph {
+p2.paragraph-two {
   color: #56260e;
   list-style-type: none;
   font-family: "Hoefler Text", "Baskerville old face", Garamond, "Times New Roman", serif;
-  font-size: 13px;
+  font-size: 12.5px;
+  text-align: center;
+}
+content-paragraph {
+  color: #56260e;
+  list-style-type: none;
+  font-family: "Hoefler Text", "Baskerville old face", Garamond, "Times New Roman", serif;
+  font-size: 12.5px;
   text-align: center;
 }
 
