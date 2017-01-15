@@ -43,6 +43,7 @@ body {
   font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   padding: 0.5em 2em 1em;
   border-bottom: 1px solid #eda863;
+  text-align: center;
 }
 .header h1 {
   margin: 0.1em 0;
@@ -50,6 +51,7 @@ body {
   font-family: Didot, Copperplate, "Copperplate Gothic Light", fantasy;
   font-size: 4.5em;
   font-weight: 300;
+  text-align: center;
 }
 .header h2 {
   font-weight: 200;
@@ -58,16 +60,17 @@ body {
   color: #ed8763;
   padding: 0;
   margin-top: 0;
+  text-align: center;
 }
 p1{
-  color: #56260e;
+  color: #441d09;
   list-style-type: none;
   font-family: "Hoefler Text", "Baskerville old face", Garamond, "Times New Roman", serif;
   font-size: 16px;
   text-align: center;
 }
 p2{
-  color: #56260e;
+  color: #381605;
   list-style-type: none;
   font-family: "Hoefler Text", "Baskerville old face", Garamond, "Times New Roman", serif;
   font-size: 12.5px;
@@ -80,7 +83,6 @@ p2{
   font-size: 12.5px;
   text-align: center;
 }
-
 .content-subhead {
   margin: 25px 0 20px 0;
   font-weight: 200;
