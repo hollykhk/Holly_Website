@@ -46,7 +46,7 @@ body {
   text-align: center;
 }
 .header h1 {
-  margin: 0.1em 0;
+  margin: 0 0 0.1em 0;
   color: #b25631;
   font-family: Didot, Copperplate, "Copperplate Gothic Light", fantasy;
   font-size: 4.5em;
