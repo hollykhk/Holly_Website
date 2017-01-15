@@ -59,21 +59,21 @@ body {
   padding: 0;
   margin-top: 0;
 }
-p1.paragraph-one {
+p1{
   color: #56260e;
   list-style-type: none;
   font-family: "Hoefler Text", "Baskerville old face", Garamond, "Times New Roman", serif;
   font-size: 16px;
   text-align: center;
 }
-p2.paragraph-two {
+p2{
   color: #56260e;
   list-style-type: none;
   font-family: "Hoefler Text", "Baskerville old face", Garamond, "Times New Roman", serif;
   font-size: 12.5px;
   text-align: center;
 }
-content-paragraph {
+.content-paragraph {
   color: #56260e;
   list-style-type: none;
   font-family: "Hoefler Text", "Baskerville old face", Garamond, "Times New Roman", serif;
