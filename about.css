@@ -40,6 +40,7 @@ p{
 }
 ul{
     list-style-type: none;  
+    text-align: center;
 }
 #return-back a.return-class{
     list-style-type: none outside none;
