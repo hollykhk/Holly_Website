@@ -38,8 +38,11 @@ p{
     border-radius: 40%;
     text-align: center
 }
+ul{
+    list-style-type: none;  
+}
 #return-back a.return-class{
-    list-style-type: none;
+    list-style-type: none outside none;
     font-size: 24px;
     font-family: Verdana, "Swiss", "Ubuntu", fantasy, Arial, "Cambria";
     text-align: center;
@@ -48,7 +51,7 @@ p{
     text-decoration: none;
 }
 #picture a.picture-class{
-    list-style-type: none;
+    list-style-type: none outside none;
     font-size: 24px;
     font-family: Verdana, "Swiss", "Ubuntu", fantasy, Arial, "Cambria";
     text-align: center;
