@@ -12,22 +12,33 @@ p{
 }
 .real-time-systems {
     border-radius: 40%;
-}.drone {
+    text-align: center;
+}
+.drone {
     border-radius: 40%;
-}.virtual-reality {
+    text-align: center; 
+}
+.virtual-reality {
     border-radius: 40%;
-}.aerospace {
+    text-align: center
+}
+.aerospace {
     border-radius: 40%;
+    text-align: center
 }
 .artificial-intelligent {
     border-radius: 40%;
-}.security {
-    border-radius: 40%;
-}.autonomous-car {
-    border-radius: 40%;
+    text-align: center
 }
-
-#return-back a:return-class{
+.security {
+    border-radius: 40%;
+    text-align: center
+}
+.autonomous-car {
+    border-radius: 40%;
+    text-align: center
+}
+#return-back a.return-class{
     list-style-type: none;
     font-size: 24px;
     font-family: Verdana, "Swiss", "Ubuntu", fantasy, Arial, "Cambria";
@@ -36,7 +47,7 @@ p{
     font-weight: bold;
     text-decoration: none;
 }
-#picture-class a:picture-class{
+#picture a.picture-class{
     list-style-type: none;
     font-size: 24px;
     font-family: Verdana, "Swiss", "Ubuntu", fantasy, Arial, "Cambria";
