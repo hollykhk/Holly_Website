@@ -26,12 +26,20 @@ p{
 }.autonomous-car {
     border-radius: 50%;
 }
-li{
+a{
     list-style-type: none;
     font-size:24px;
     font-family: Verdana, "Swiss", "Ubuntu", fantasy, Arial, "Cambria";
     text-align: center;
     color: #592a10;
-    font-weight: bold;
     text-decoration: none;
 }
+a:hover{
+    list-style-type: none;
+    font-size:24px;
+    font-family: Verdana, "Swiss", "Ubuntu", fantasy, Arial, "Cambria";
+    text-align: center;
+    color: #301404;
+    font-weight: bold;
+    text-decoration: none;
+}  
