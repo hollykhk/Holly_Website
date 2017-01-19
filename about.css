@@ -1,40 +1,42 @@
 body{
-  background-color: #f9d9ac;
+  background-color: #592a10;
 }
 p{
-  background-color: #f4cfa4;
+  background-color: #f2c398;
   font-family: Verdana, "Swiss", "Ubuntu", fantasy, Arial, "Cambria";
   font-size: 24px;
   color: #592a10;
   margin: 20px 10px;
-  padding: 20px 25px 400px 25px;
+  padding: 20px 25px;
   text-align: center;
 }
 .real-time-systems {
-    border-radius: 50%;
+    border-radius: 40%;
 }.drone {
-    border-radius: 50%;
+    border-radius: 40%;
 }.virtual-reality {
-    border-radius: 50%;
+    border-radius: 40%;
 }.aerospace {
-    border-radius: 50%;
+    border-radius: 40%;
 }
 .artificial-intelligent {
-    border-radius: 50%;
+    border-radius: 40%;
 }.security {
-    border-radius: 50%;
+    border-radius: 40%;
 }.autonomous-car {
-    border-radius: 50%;
+    border-radius: 40%;
 }
-#return-back li{
+
+#return-back a:return-class{
     list-style-type: none;
     font-size: 24px;
     font-family: Verdana, "Swiss", "Ubuntu", fantasy, Arial, "Cambria";
     text-align: center;
-    color: #592a10;
+    color: #301404;
+    font-weight: bold;
     text-decoration: none;
 }
-#return-back li hover{
+#picture-class a:picture-class{
     list-style-type: none;
     font-size: 24px;
     font-family: Verdana, "Swiss", "Ubuntu", fantasy, Arial, "Cambria";
