@@ -1,5 +1,7 @@
 body{
+  background-image: url("white-background.jpg");
   background-color: #f4cfa4;
+  text-align: center;
 }
 h1{
   text-align: center;
