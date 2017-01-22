@@ -1,3 +1,4 @@
+<html ng-app>
 <head>
 <meta charset="UTF-8">
 <meta property="og:title" content="Holly Kwan">
@@ -7,6 +8,7 @@
 <meta name="author" content="Holly Kwan">
 <meta name="keyword" content="holly, kwan, hollykwan, web development, mobile development, agile development, big data, USA, Texas, student, Dallas, TX, personal, infomation">
 <meta name="viewport" content="width=device-width">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></scrip>
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
 </head>
 <body>
@@ -54,8 +56,8 @@
       </div>
       <div id="main">
         <div class="header">
-          <h1 ng-app="myName" ng-init="fullName='Holly Kwan'"ng-bind="fullName"></h1>
-          <h2 ng-website="myWebsite" ng-init="websitePage='My website'"ng-bind="websitePage"></h2> 
+          <h1 ng-app="myName" ng-init="fullName='Holly Kwan'"ng-bind="fullName"ng-controller="myCtrl"></h1>
+          <h2>My website</h2> 
 	  </div>
         <div class="content-paragraph">
           <h3 class="content-subhead">More about Holly</h3>
@@ -96,7 +98,6 @@
         </div>
       </div>
       <script src="page.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
 <script type="text/javascript">
 // JQuery.
 $(function() {
@@ -113,4 +114,4 @@ $('form').each(function() {
 </script>
 <form name="formName" method="post">
    <input type="submit" style="visibility: hidden;" />
-</form>
+	    </form>
