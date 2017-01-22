@@ -28,7 +28,7 @@
     ga('create', 'UA-41480445-1', 'purecss.io');
     ga('send', 'pageview');
   </script>
-  <body>
+  </body>
     <div id="layout">
       <a href="#menu" id="menuLink" class="menu-link">
         <!-- Hamburger icon -->
@@ -58,7 +58,7 @@
           <h2>My website</h2> </div>
         <div class="content-paragraph">
           <h3 class="content-subhead">More about Holly</h3>
-          <div class='content'>
+          <div class='content' ng-app="">
             <p1 class="paragraph-one">I am a software engineer from Texas. I attended the University of Texas of Dallas.</p1>
             <br><br><br>
             <p2 class="paragraph-two">Let's get to know Holly by her list of favorite:</p2>
@@ -81,7 +81,7 @@
             <li>Movie: Finding Dory</li>
             <li>Music Genre: Early Jazz </li>
             <li>Musical Instrument: Piano </li>
-            <li>Number: 8</li>
+            <li>Number: {{ 4 + 4 }}</li>
             <li>Nail Polish Shade: Beige</li>
             <li>Novel: The Great Gatsby</li>
             <li>Programming Language: Go </li>
@@ -95,7 +95,7 @@
         </div>
       </div>
       <script src="page.js"></script>
-  </body>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
 <script type="text/javascript">
 // JQuery.
 $(function() {
