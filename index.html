@@ -8,12 +8,18 @@
 <meta name="author" content="Holly Kwan">
 <meta name="keyword" content="holly, kwan, hollykwan, web development, mobile development, agile development, big data, USA, Texas, student, Dallas, TX, personal, infomation">
 <meta name="viewport" content="width=device-width">
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></scrip>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
 </head>
 <body>
   <title>Holly Kwan</title>
   <link rel="stylesheet" href="style.css">
+<script>
+var app = angular.module('myName', []);
+app.controller('myCtrl', function($scope) {
+    $scope.fullName= "";
+});
+</script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script>
   <script>
     (function(i, s, o, g, r, a, m) {
