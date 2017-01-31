@@ -41,8 +41,8 @@ body {
   color: #2b2125;
   text-align: center;
   font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-  padding: 0.5em 2em 1em;
-  border-bottom: 1px solid #eda863;
+  padding: 0.5em 2em 0.1em 1em;
+  border-bottom: 0.1px solid #eda863;
   text-align: center;
 }
 .header h1 {
