@@ -219,4 +219,6 @@ p2{
     left: 150px;
   }
 }
-
+up{
+  list-style-type: none;
+  }
