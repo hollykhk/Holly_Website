@@ -32,7 +32,7 @@ body {
   display: block;
 }
 .content {
-  float: right;
+  float: initial;
   font-size: 11px;
   margin: 0 auto;
   padding: 0 2em;
@@ -41,7 +41,7 @@ body {
   line-height: 1.4em;
 }
 .header {
-  float: right;
+  float: initial;
   margin: 10;
   color: #2b2125;
   text-align: center;
@@ -51,7 +51,7 @@ body {
   text-align: center;
 }
 .header h1 {
-  float: right;
+  float: initial;
   margin: 0 0 0.1em 0;
   color: #b25631;
   font-family: "Didot", "Copperplate", "Copperplate Gothic Light", fantasy;
@@ -60,7 +60,7 @@ body {
   text-align: center;
 }
 .header h2 {
-  float: right;
+  float: initial;
   font-weight: 200;
   font-size: 18px;
   font-family: "Cambria", "fantasy", "Palatino";
@@ -70,7 +70,7 @@ body {
   text-align: center;
 }
 p1{
-  float: right;
+  float: initial;
   color: #441d09;
   list-style-type: none;
   font-family: "Baskerville old face", "Garamond", "Times New Roman", serif;
@@ -78,7 +78,7 @@ p1{
   text-align: center;
 }
 p2{
-  float: right;
+  float: initial;
   color: #381605;
   list-style-type: none;
   font-family: "Rockwell", "Courier Bold", "Courier", "Georgia", "Times", "Times New Roman", serif;if;
@@ -86,7 +86,7 @@ p2{
   text-align: center;
 }
 .content-paragraph {
-  float: right;
+  float: initial;
   color: #56260e;
   list-style-type: none;
   font-family: "Rockwell", "Courier Bold", "Courier", "Georgia", "Times", "Times New Roman", serif;;
@@ -94,7 +94,7 @@ p2{
   text-align: center;
 }
 .content-subhead {
-  float: right;
+  float: initial;
   margin: 25px 0 20px 0;
   font-family: "Rockwell", "Courier Bold", "Courier", "Georgia", "Times", "Times New Roman", serif;
   font-weight: 200;
