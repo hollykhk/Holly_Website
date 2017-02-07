@@ -15,20 +15,24 @@ body {
   transition: all 0.1s ease-out;
 }
 #layout {
+  float: left;
   position: relative;
   left: 2px;
   padding-left: 0;
 }
 #layout.active #menu {
+  float: left;
   left: 150px;
   width: 150px;
   display: block;
 }
 #layout.active .menu-link {
+  float: left;
   left: 150px;
   display: block;
 }
 .content {
+  float: right;
   font-size: 11px;
   margin: 0 auto;
   padding: 0 2em;
@@ -37,6 +41,7 @@ body {
   line-height: 1.4em;
 }
 .header {
+  float: right;
   margin: 10;
   color: #2b2125;
   text-align: center;
@@ -46,6 +51,7 @@ body {
   text-align: center;
 }
 .header h1 {
+  float: right;
   margin: 0 0 0.1em 0;
   color: #b25631;
   font-family: "Didot", "Copperplate", "Copperplate Gothic Light", fantasy;
@@ -54,6 +60,7 @@ body {
   text-align: center;
 }
 .header h2 {
+  float: right;
   font-weight: 200;
   font-size: 18px;
   font-family: "Cambria", "fantasy", "Palatino";
@@ -63,6 +70,7 @@ body {
   text-align: center;
 }
 p1{
+  float: right;
   color: #441d09;
   list-style-type: none;
   font-family: "Baskerville old face", "Garamond", "Times New Roman", serif;
@@ -70,6 +78,7 @@ p1{
   text-align: center;
 }
 p2{
+  float: right;
   color: #381605;
   list-style-type: none;
   font-family: "Rockwell", "Courier Bold", "Courier", "Georgia", "Times", "Times New Roman", serif;if;
@@ -77,6 +86,7 @@ p2{
   text-align: center;
 }
 .content-paragraph {
+  float: right;
   color: #56260e;
   list-style-type: none;
   font-family: "Rockwell", "Courier Bold", "Courier", "Georgia", "Times", "Times New Roman", serif;;
@@ -84,6 +94,7 @@ p2{
   text-align: center;
 }
 .content-subhead {
+  float: right;
   margin: 25px 0 20px 0;
   font-family: "Rockwell", "Courier Bold", "Courier", "Georgia", "Times", "Times New Roman", serif;
   font-weight: 200;
@@ -92,6 +103,7 @@ p2{
   color: #511;
 }
 #menu {
+  float: left;
   cursor: pointer;
   text-align: center;
   margin-left: -150px;
@@ -107,6 +119,7 @@ p2{
   overflow-y: auto;
 }
 #menu a {
+  float: left;
   color: #d98;
   border: none;
   font-family: "monaco", "Consolas", "Lucida Consola", monospace;
@@ -115,25 +128,31 @@ p2{
 }
 #menu .pure-menu,
 #menu .pure-menu ul {
+  float: left;
   border: none;
   background: transparent;
 }
 #menu .pure-menu ul,
 #menu .pure-menu .menu-item-divided {
+  float: left;
   border-top: 1px solid #2d1706;
 }
 #menu .pure-menu li a:hover,
 #menu .pure-menu li a:focus {
+  float: left;
   background: #361811;
 }
 #menu .pure-menu-selected {
+  float: left;
   text-decoration: none;
 }
 #menu .pure-menu-selected a {
+  float: left;
   color: #fff;
 }
 
 #menu .pure-menu-heading {
+  float: left;
   text-decoration: none;
   font-size: 225%;
   font-family: "Glocester", "Baskerville", "Open Sans", "arial", sans-serif, "Swiss", "Ubuntu";
@@ -141,15 +160,18 @@ p2{
   margin: 0;
 }
 .pure-menu-item a{
+  float: left;
   text-decoration: none;
 }
 .pure-menu-item{
+  float: left;
   margin-left = -30px;
   margin-top: 10px;
   text-align: justify;
   list-style-type: none;
 }
 .menu-link {
+  float: left;
   position: fixed;
   display: block;
   /* show this only on small mobile screens */
@@ -188,7 +210,10 @@ p2{
 .menu-link span:after {
   margin-top: 0.4em;
 }
-
+ul{
+  float: left;
+  list-style-type: none;
+  }
 @media (min-width: 48em) {
   .header,
   .content {
@@ -200,25 +225,31 @@ p2{
     /* left col width "#menu" */
     left: 0;
   }
+  ul{
+  float: left;
+  list-style-type: none;
+  }
   #menu {
+    float: left;
     left: 150px;
   }
   .menu-link {
+    float: left;
     position: fixed;
     left: 150px;
     display: block;
   }
   #layout.active .menu-link {
+    float: left;
     left: 150px;
   }
 }
 
 @media (max-width: 48em) {
   #layout.active {
+    float: left;
     position: relative;
     left: 150px;
   }
 }
-ul{
-  list-style-type: none;
-  }
+
