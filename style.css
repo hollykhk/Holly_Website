@@ -233,6 +233,8 @@ ul{
     background-color: #f4cfa4;
   }
   #menu{
-    float: left;
+    float: 0;
 }
-
+  #menu{
+    margin: 0;
+  }
