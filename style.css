@@ -1,5 +1,5 @@
 body {
-  background-color: #f4cfa4;
+  background-color: #f4bca4;
 }
 .pure-img-responsive {
   max-width: 100%;
@@ -118,7 +118,7 @@ p2{
 #menu .pure-menu,
 #menu .pure-menu ul {
   border: none;
-  background: transparent;
+  background-color: transparent;
 }
 #menu .pure-menu ul,
 #menu .pure-menu .menu-item-divided {
@@ -127,7 +127,7 @@ p2{
 #menu .pure-menu li a:hover,
 #menu .pure-menu li a:focus {
   float: left;
-  background: #361811;
+  background-color: #361811;
 }
 #menu .pure-menu-selected {
   float: left;
@@ -160,7 +160,6 @@ p2{
   float: left;
   position: fixed;
   display: block;
-  /* show this only on small mobile screens */
   top: 0;
   left: 0;
   background-color: #f4cfa4;
@@ -183,7 +182,6 @@ p2{
 .menu-link span:after {
   background-color: #fff;
   width: 50%;
-  height: 0.1em;
 }
 .menu-link span:before,
 .menu-link span:after {
@@ -197,12 +195,14 @@ p2{
 ul{
   list-style-type: none;
   }
+<!-- If the screen is less than or equal to 760px -->
 @media (max-width: 760px){
   #menu{
     margin:0;
   }
 }
-@media (min-width: 48em) {
+<!-- If screen is greater than or equal to 480px -->
+@media (min-width: 480px) {
   .header,
   .content {
     padding-left: 2em;
@@ -214,6 +214,7 @@ ul{
     left: 0;
   }
   #menu {
+    float: left;
     margin:0;
     left: 150px;
   }
@@ -228,15 +229,9 @@ ul{
     left: 150px;
   }
 }
-@media (max-width: 48em) {
-  #layout.active {
-    float: left;
-    position: relative;
-    left: 150px;
-  }
-  .body{
-    background-color: #f4cfa4;
-  }
+<!-- If the screen is less than or equal to 480px -->
+@media only screen and (max-width: 480px) {
   #menu{
     margin: 0;
+  }
 }
