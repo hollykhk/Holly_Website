@@ -197,6 +197,11 @@ p2{
 ul{
   list-style-type: none;
   }
+@media (max-width: 760px){
+  #menu{
+    margin:0;
+  }
+}
 @media (min-width: 48em) {
   .header,
   .content {
@@ -209,7 +214,7 @@ ul{
     left: 0;
   }
   #menu {
-    float: left;
+    margin:0;
     left: 150px;
   }
   .menu-link {
@@ -235,6 +240,3 @@ ul{
   #menu{
     margin: 0;
 }
-  #menu{
-    margin: 0;
-  }
