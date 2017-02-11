@@ -141,7 +141,7 @@ p2{
   float: left;
   text-decoration: none;
   font-size: 225%;
-  font-family: "Glocester", "Baskerville", "Open Sans", "arial", sans-serif, "Swiss", "Ubuntu";
+  font-family: "Glocester", "Baskerville", "Open Sans", "Arial", "Swiss", "Ubuntu", Sans-serif;
   color: #fff;
   margin: 0;
 }
@@ -163,7 +163,7 @@ p2{
   top: 0;
   left: 0;
   background-color: #f4cfa4;
-  font-family: "Open Sans", "arial", sans-serif, "Swiss", "Ubuntu";
+  font-family: "Open Sans", "arial", "Swiss", "Ubuntu", Sans-serif;
   font-size: 8px;
   z-index: 10;
   height: auto;
@@ -198,6 +198,7 @@ ul{
 <!-- If the screen is less than or equal to 760px -->
 @media (max-width: 760px){
   #menu{
+    float:left;
     margin:0;
   }
 }
@@ -232,6 +233,10 @@ ul{
 <!-- If the screen is less than or equal to 480px -->
 @media only screen and (max-width: 480px) {
   #menu{
+    float: left;
     margin: 0;
   }
+}
+#menu{
+    margin: 0;
 }
