@@ -1,5 +1,5 @@
 body {
-  background-color: #f7ac69;
+  background-color: #ffbeb0;
 }
 .pure-img-responsive {
   max-width: 100%;
@@ -65,8 +65,8 @@ body {
 p1{
   color: #441d09;
   list-style-type: none;
-  font-family: "Raleway", "Garamond", "Arial Narrow", "Times New Roman", serif;
-  font-size: 16px;
+  font-family: "Rockwell", "Courier Bold", "Courier", "Georgia", "Times", "Times New Roman", serif;
+  font-size: 15px;
   text-align: center;
 }
 p2{
@@ -104,7 +104,7 @@ p2{
   bottom: 0;
   z-index: 10000;
   /* so the menu or its navicon stays above all content */
-  background: #422203;
+  background-color: #422203;
   overflow-y: auto;
 }
 #menu a {
@@ -163,7 +163,7 @@ p2{
   top: 0;
   left: 0;
   background-color: #fcc9b3;
-  font-family: "Open Sans", "arial", "Swiss", "Ubuntu", Sans-serif;
+  font-family: "Open Sans", "Arial", "Swiss", "Ubuntu", Sans-serif;
   font-size: 8px;
   z-index: 10;
   height: auto;
@@ -197,6 +197,9 @@ ul{
   }
 <!-- If the screen is less than or equal to 760px -->
 @media (max-width: 760px){
+  body{
+    background-color: #ffd5cc;
+  }
   #menu{
     float:left;
     margin:0;
@@ -232,11 +235,15 @@ ul{
 }
 <!-- If the screen is less than or equal to 480px -->
 @media only screen and (max-width: 480px) {
+  body{
+    background-color:#ffeae5;
+  }
   #menu{
     float: left;
     margin: 0;
   }
 }
+<!-- for all screen size -->
 #menu{
     margin: 0;
 }
