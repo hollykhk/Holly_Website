@@ -1,5 +1,5 @@
 body {
-  background-color: #ffbeb0;
+  background-color: #ffd2c9;
 }
 .pure-img-responsive {
   max-width: 100%;
@@ -50,6 +50,7 @@ body {
   color: #b25631;
   font-family: "Didot", "Copperplate", "Copperplate Gothic Light", fantasy;
   font-size: 4.5em;
+  font-weight: bold;
   font-weight: 300;
   text-align: center;
 }
@@ -209,8 +210,8 @@ ul{
 @media (min-width: 480px) {
   .header,
   .content {
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
   }
   #layout {
     padding-left: 60px;
