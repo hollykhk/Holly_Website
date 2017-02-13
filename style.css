@@ -1,5 +1,5 @@
 body {
-  background-color: #f4bca4;
+  background-color: #fcc9b3;
 }
 .pure-img-responsive {
   max-width: 100%;
@@ -16,20 +16,20 @@ body {
 }
 #layout {
   position: relative;
-  left: 2px;
+  left: 1px;
   padding-left: 0;
 }
 #layout.active #menu {
-  left: 150px;
-  width: 150px;
+  left: 60px;
+  width: 60px;
   display: block;
 }
 #layout.active .menu-link {
-  left: 150px;
+  left: 60px;
   display: block;
 }
 .content {
-  font-size: 11px;
+  font-size: 10px;
   margin: 0 auto;
   padding: 0 2em;
   max-width: 800px;
@@ -95,8 +95,8 @@ p2{
   float: left;
   cursor: pointer;
   text-align: center;
-  margin-left: -150px;
-  width: 150px;
+  margin-left: -600px;
+  width: 80px;
   padding: 22px 8px;
   position: fixed;
   top: 0;
@@ -112,8 +112,8 @@ p2{
   color: #d98;
   border: none;
   font-family: "monaco", "Consolas", "Lucida Consola", monospace;
-  font-size: 16px;
-  padding: 0.5em 0 0.5em 0;
+  font-size: 8px;
+  padding: 0.4em 0 0.4em 0;
 }
 #menu .pure-menu,
 #menu .pure-menu ul {
@@ -138,11 +138,11 @@ p2{
   color: #fff;
 }
 #menu .pure-menu-heading {
-  float: left;
+  float: right;
   text-decoration: none;
-  font-size: 225%;
+  font-size: 85%;
   font-family: "Glocester", "Baskerville", "Open Sans", "Arial", "Swiss", "Ubuntu", Sans-serif;
-  color: #fff;
+  color: #f9ede8;
   margin: 0;
 }
 .pure-menu-item a{
@@ -162,7 +162,7 @@ p2{
   display: block;
   top: 0;
   left: 0;
-  background-color: #f4cfa4;
+  background-color: #fcc9b3;
   font-family: "Open Sans", "arial", "Swiss", "Ubuntu", Sans-serif;
   font-size: 8px;
   z-index: 10;
@@ -210,24 +210,24 @@ ul{
     padding-right: 2em;
   }
   #layout {
-    padding-left: 150px;
+    padding-left: 60px;
     /* left col width "#menu" */
     left: 0;
   }
   #menu {
     float: left;
     margin:0;
-    left: 150px;
+    left: 60px;
   }
   .menu-link {
     float: left;
     position: fixed;
-    left: 150px;
+    left: 60px;
     display: block;
   }
   #layout.active .menu-link {
     float: left;
-    left: 150px;
+    left: 60px;
   }
 }
 <!-- If the screen is less than or equal to 480px -->
