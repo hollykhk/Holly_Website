@@ -1,5 +1,5 @@
 body {
-  background-color: #fcc9b3;
+  background-color: #f7ac69;
 }
 .pure-img-responsive {
   max-width: 100%;
@@ -65,7 +65,7 @@ body {
 p1{
   color: #441d09;
   list-style-type: none;
-  font-family: "Baskerville old face", "Garamond", "Times New Roman", serif;
+  font-family: "Raleway", "Garamond", "Arial Narrow", "Times New Roman", serif;
   font-size: 16px;
   text-align: center;
 }
