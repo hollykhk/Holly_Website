@@ -95,9 +95,9 @@ p2{
   float: left;
   cursor: pointer;
   text-align: center;
-  margin-left: -600px;
+  margin-left: -35px;
   width: 80px;
-  padding: 22px 8px;
+  padding: 12px 6px;
   position: fixed;
   top: 0;
   left: 0;
@@ -118,19 +118,12 @@ p2{
 #menu .pure-menu,
 #menu .pure-menu ul {
   border: none;
-  background-color: transparent;
-}
-#menu .pure-menu ul,
-#menu .pure-menu .menu-item-divided {
-  border-top: 1px solid #2d1706;
 }
 #menu .pure-menu li a:hover,
 #menu .pure-menu li a:focus {
-  float: left;
   background-color: #361811;
 }
 #menu .pure-menu-selected {
-  float: left;
   text-decoration: none;
 }
 #menu .pure-menu-selected a {
@@ -146,7 +139,6 @@ p2{
   margin: 0;
 }
 .pure-menu-item a{
-  float: left;
   text-decoration: none;
 }
 .pure-menu-item{
@@ -157,17 +149,16 @@ p2{
   list-style-type: none;
 }
 .menu-link {
-  float: left;
   position: fixed;
   display: block;
   top: 0;
   left: 0;
-  background-color: #fcc9b3;
-  font-family: "Open Sans", "Arial", "Swiss", "Ubuntu", Sans-serif;
-  font-size: 8px;
+  background-color: #ffd2c9;
+  font-family: "Open Sans", "Swiss", "Ubuntu", "Arial", Sans-serif;
+  font-size: 18px;
   z-index: 10;
   height: auto;
-  padding: 0.3em 1.2em;
+  padding: 0.3em 0.3em;
 }
 .menu-link:hover,
 .menu-link:focus {
