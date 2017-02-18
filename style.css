@@ -49,7 +49,7 @@ body {
   margin: 0 0 0.1em 0;
   color: #b25631;
   font-family: "Didot", "Copperplate", "Copperplate Gothic Light", fantasy;
-  font-size: 4.5em;
+  font-size: 4em;
   font-weight: 900;
   text-align: center;
 }
@@ -112,7 +112,7 @@ p2{
   color: #d98;
   border: none;
   font-family: "monaco", "Consolas", "Lucida Consola", monospace;
-  font-size: 8px;
+  font-size: 7px;
   padding: 0.4em 0 0.4em 0;
 }
 #menu .pure-menu,
@@ -231,6 +231,7 @@ ul{
   }
   #menu{
     float: left;
+    width: 60px;
     margin: 0;
   }
 }
