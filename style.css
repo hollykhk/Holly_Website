@@ -234,6 +234,18 @@ ul{
     width: 60px;
     margin: 0;
   }
+  .header h1 {
+  margin: 0 0 0 0;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+.header h2 {
+  font-weight: 100;
+  font-size: 8px;
+}
+  .content {
+    font-size: 7px;
+  }
 }
 <!-- for all screen size -->
 #menu{
