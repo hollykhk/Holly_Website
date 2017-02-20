@@ -66,14 +66,14 @@ p1{
   color: #441d09;
   list-style-type: none;
   font-family: "Rockwell", "Courier Bold", "Courier", "Georgia", "Times", "Times New Roman", serif;
-  font-size: 11px;
+  font-size: 10px;
   text-align: center;
 }
 p2{
   color: #381605;
   list-style-type: none;
   font-family: "Rockwell", "Courier Bold", "Courier", "Georgia", "Times", "Times New Roman", serif;
-  font-size: 11px;
+  font-size: 10px;
   text-align: center;
 }
 .content-paragraph {
@@ -86,8 +86,8 @@ p2{
 .content-subhead {
   margin: 25px 0 20px 0;
   font-family: "Rockwell", "Courier Bold", "Courier", "Georgia", "Times", "Times New Roman", serif;
-  font-weight: 200;
-  font-size: 30px;
+  font-weight: 400;
+  font-size: 28px;
   text-align: center;
   color: #511;
 }
@@ -241,10 +241,13 @@ ul{
 }
 .header h2 {
   font-weight: 100;
-  font-size: 8px;
+  font-size: 7px;
 }
+ .h3{
+  font-size:11px; 
+  }
   .content {
-    font-size: 7px;
+    font-size: 6px;
   }
 }
 <!-- for all screen size -->
