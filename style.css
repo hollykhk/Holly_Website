@@ -87,7 +87,7 @@ p2{
   margin: 25px 0 20px 0;
   font-family: "Rockwell", "Courier Bold", "Courier", "Georgia", "Times", "Times New Roman", serif;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 26px;
   text-align: center;
   color: #511;
 }
@@ -243,9 +243,14 @@ ul{
   font-weight: 100;
   font-size: 6px;
 }
- .h3{
-  font-size: 6px; 
-  }
+.content-subhead {
+  margin: 25px 0 20px 0;
+  font-family: "Rockwell", "Courier Bold", "Courier", "Georgia", "Times", "Times New Roman", serif;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: center;
+  color: #3a0909;
+}
   .content {
     font-size: 6px;
   }
