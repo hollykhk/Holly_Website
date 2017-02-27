@@ -54,7 +54,7 @@ body {
   text-align: center;
 }
 .header h2 {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 18px;
   font-family: "Cambria", "fantasy", "Palatino";
   color: #ed8763;
@@ -63,10 +63,11 @@ body {
   text-align: center;
 }
 p1{
-  color: #441d09;
+  color: #633a24;
   list-style-type: none;
+  font-weight: 200;
   font-family: "Rockwell", "Courier Bold", "Courier", "Georgia", "Times", "Times New Roman", serif;
-  font-size: 10px;
+  font-size: 11px;
   text-align: center;
 }
 p2{
