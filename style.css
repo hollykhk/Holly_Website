@@ -65,7 +65,7 @@ body {
 p1{
   color: #633a24;
   list-style-type: none;
-  font-weight: 800;
+  font-weight: 400;
   font-family: "Rockwell", "Courier Bold", "Courier", "Georgia", "Times", "Times New Roman", serif;
   font-size: 11px;
   text-align: center;
@@ -247,7 +247,7 @@ ul{
 .content-subhead {
   margin: 25px 0 20px 0;
   font-family: "Rockwell", "Courier Bold", "Courier", "Georgia", "Times", "Times New Roman", serif;
-  font-weight: 300;
+  font-weight: 600;
   font-size: 8px;
   text-align: center;
   color: #3a0909;
