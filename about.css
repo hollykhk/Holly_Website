@@ -1,9 +1,10 @@
 body{
-  background-color: #592a10;
+  background-image: url("white_background.jpg");
+  background-color: #f4cfa4;
+  text-align: center;
 }
 p{
-  background-color: #f2c398;
-  font-family: Verdana, "Swiss", "Ubuntu", fantasy, Arial, "Cambria";
+  font-family: "Verdana", "Swiss", "Ubuntu", "fantasy", "Arial", "Cambria", Serif;
   font-size: 24px;
   color: #592a10;
   margin: 20px 10px;
@@ -11,31 +12,24 @@ p{
   text-align: center;
 }
 .real-time-systems {
-    border-radius: 40%;
     text-align: center;
 }
 .drone {
-    border-radius: 40%;
     text-align: center; 
 }
 .virtual-reality {
-    border-radius: 40%;
     text-align: center
 }
 .aerospace {
-    border-radius: 40%;
     text-align: center
 }
 .artificial-intelligent {
-    border-radius: 40%;
     text-align: center
 }
 .security {
-    border-radius: 40%;
     text-align: center
 }
 .autonomous-car {
-    border-radius: 40%;
     text-align: center
 }
 ul{
@@ -45,18 +39,18 @@ ul{
 #return-back a.return-class{
     list-style-type: none outside none;
     font-size: 24px;
-    font-family: Verdana, "Swiss", "Ubuntu", fantasy, Arial, "Cambria";
+    font-family: "Verdana", "Swiss", "Ubuntu", Fantasy, "Arial", "Cambria";
     text-align: center;
     color: #301404;
-    font-weight: bold;
+    font-weight: 600;
     text-decoration: none;
 }
 #picture a.picture-class{
     list-style-type: none outside none;
     font-size: 24px;
-    font-family: Verdana, "Swiss", "Ubuntu", fantasy, Arial, "Cambria";
+    font-family: "Verdana", "Swiss", "Ubuntu", Fantasy, "Arial", "Cambria";
     text-align: center;
     color: #301404;
-    font-weight: bold;
+    font-weight: 600;
     text-decoration: none;
 }  
