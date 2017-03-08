@@ -86,11 +86,11 @@ p2{
 }
 .content-subhead {
   margin: 25px 0 20px 0;
-  font-family: "Rockwell", "Courier Bold", "Courier", "Georgia", "Times", "Times New Roman", serif;
-  font-weight: 400;
-  font-size: 26px;
+  font-family: "Rockwell", "Courier Bold", "Courier", "Georgia", "Times", "Times New Roman", Serif;
+  font-weight: 600;
+  font-size: 18px;
   text-align: center;
-  color: #511;
+  color: #422813;
 }
 #menu {
   float: left;
@@ -112,7 +112,7 @@ p2{
   float: left;
   color: #d98;
   border: none;
-  font-family: "monaco", "Consolas", "Lucida Consola", monospace;
+  font-family: "monaco", "Consolas", "Lucida Consola", Monospace;
   font-size: 7px;
   padding: 0.4em 0 0.4em 0;
 }
