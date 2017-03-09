@@ -1,11 +1,10 @@
 body{
   background-image: url("white_background.jpg");
-  background-color: #f4cfa4;
   text-align: center;
 }
 p{
   font-family: "Trebuchet MS", "Helvetica", "Arial", sans-serif;
-  font-size: 24px;
+  font-size: 14px;
   color: #592a10;
   margin: 20px 10px;
   padding: 20px 25px;
