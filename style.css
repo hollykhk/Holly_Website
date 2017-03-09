@@ -5,6 +5,9 @@ body {
   max-width: 100%;
   height: auto;
 }
+#menu{
+    margin: 0;
+}
 #layout,
 #menu,
 .menu-link {
@@ -186,20 +189,20 @@ p2{
 ul{
   list-style-type: none;
   }
-<!-- If the screen is less than or equal to 760px -->
+<!-- If the screen is less than or equal to 760px like smaller than tablets -->
 @media (max-width: 760px){
   body{
     background-color: #ffd5cc;
   }
 .header h1 {
-  font-size: 3em;
+  font-size: 2em;
 }
   #menu{
     float:left;
     margin:0;
   }
 }
-<!-- If screen is greater than or equal to 480px -->
+<!-- If screen is greater than or equal to 480px like larger than phones -->
 @media (min-width: 480px) {
   .header,
   .content {
@@ -208,7 +211,6 @@ ul{
   }
   #layout {
     padding-left: 60px;
-    /* left col width "#menu" */
     left: 0;
   }
   #menu {
@@ -240,9 +242,9 @@ ul{
 .header h1 {
   margin: 0 0 0 0;
   color: 280d021;
-  font-family: "Copperplate", "Copperplate Gothic Light", "fantasy", "arial", serif;
-  font-size: 2em;
-  font-weight: 300;
+  font-family: "Fira Mono", "DejaVu Sans Mono", "Menlo, Consolas", "Liberation Mono", "Monaco", "Lucida Console", monospace;
+  font-size: 1.5em;
+  font-weight: 800;
 }
 .header h2 {
   font-weight: 100;
@@ -255,11 +257,4 @@ ul{
   text-align: center;
   color: #3a0909;
 }
-  .content {
-    font-size: 6px;
-  }
-}
-<!-- for all screen size -->
-#menu{
-    margin: 0;
 }
