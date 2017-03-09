@@ -5,7 +5,7 @@ body{
 p{
   font-family: "Trebuchet MS", "Helvetica", "Arial", sans-serif;
   font-size: 14px;
-  color: #592a10;
+  color: #35261d;
   margin: 20px 10px;
   padding: 20px 25px;
   text-align: center;
@@ -31,7 +31,7 @@ ul{
     font-size: 24px;
     font-family: "Trebuchet MS", "Helvetica", "Arial", sans-serif;
     text-align: center;
-    color: #30251e;
+    color: #35261d;
     font-weight: 700;
     text-decoration: none;
 }
@@ -40,7 +40,7 @@ ul{
     font-size: 24px;
     font-family: "Trebuchet MS", "Helvetica", "Arial", sans-serif;
     text-align: center;
-    color: #30251e;
+    color: #35261d;
     font-weight: 700;
     text-decoration: none;
 }  
