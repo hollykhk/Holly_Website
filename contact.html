@@ -1,45 +1,16 @@
 <html>
 <head>
   <title>Forms</title>
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
-  <!-- LOAD JQUERY -->
-    <!-- when building an angular app, it is not recommended to use jQuery -->
-    <!-- Use jQuery because jQuery's $.param will help us send data to our PHP script so that PHP can recognize it -->
-    <!-- this is jQuery's only use. avoid it in Angular apps and if anyone has tips on how to send data to a PHP script w/o jQuery, please state it in the comments -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-  <!-- PROCESS FORM WITH AJAX (OLD) -->
-  <script>
-  </script>
 </head>
 <body>
-<div class="container">
-<div class="col-md-6 col-md-offset-3">
-  <!-- PAGE TITLE -->
-  <div class="page-header">
-    <h1><span class="glyphicon glyphicon-tower"></span> Submit Contact Information</h1>
-  </div>
-  <div id="messages"></div>
-  <!-- FORM -->
-  <form>
-    <!-- NAME -->
-    <div id="name-group" class="form-group">
-      <label>Name</label>
-      <input type="text" name="name" class="form-control" placeholder="Linus Torvalds">
-      <span class="help-block"></span>
-    </div>
-    <!-- Alias NAME -->
-    <div id="alias-group" class="form-group">
-      <label>Alias</label>
-      <input type="text" name="alias" class="form-control" placeholder="Optional Alias">
-      <span class="help-block"></span>
-    </div>
-    <!-- SUBMIT BUTTON -->
-    <button type="submit" class="btn btn-success btn-lg btn-block">
-      <span class="glyphicon glyphicon-flash"></span> Submit!
-    </button>
+    <h1><span class="contact_class" style="text-align:center"></span>Contact Form</h1>
+    <!-- FormSpree to send-->
+  <form action="https://formspree.io/holly@hackdfw.com">
+    Name:<input type="text" name="name" style="text-align:center"><br><br><br>
+    <!-- _replyto is to let host to the respond to the person who originally submitted the form by email -->
+    Email:<input type="email" name="_replyto" style="text-align:center"><br><br><br>
+    <input type="submit" value="Send"><br><br>
   </form>
-</div>
-</div>
-<p style="color:#3a3131;text-align: center;font-family: Garamond, Helvatica, Arial, serif;">If you click the Submit button, the entered data will send if the server is valid.</p>
+<p style="color:#3a3131;text-align: center;font-family: Garamond, Helvatica, Arial, serif;">The host will receive your contact information in due time. Thank you.</p>
 </body>
 </html>
