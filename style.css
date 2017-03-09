@@ -237,12 +237,10 @@ ul{
   }
   .header h1 {
   margin: 0 0 0 0;
-  font-size: 1.5em;
-  font-weight: 300;
+  font-size: 24px;
 }
 .header h2 {
   font-weight: 100;
-  font-size: 6px;
 }
 .content-subhead {
   margin: 25px 0 20px 0;
@@ -254,12 +252,6 @@ ul{
 }
   .content {
     font-size: 6px;
-  }
-  pl{
-    font-size:6px;
-  }
-  p2{
-    font-size:6px;
   }
 }
 <!-- for all screen size -->
