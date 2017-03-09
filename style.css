@@ -191,6 +191,9 @@ ul{
   body{
     background-color: #ffd5cc;
   }
+.header h1 {
+  font-size: 3em;
+}
   #menu{
     float:left;
     margin:0;
