@@ -1,6 +1,13 @@
 body {
   background-image: url("white_background.jpg");
-h1{
+}
+h1.contact_class {
   font-size: 18px;
+  color: #35261d;
+  font-family: "monospace", "arial", serif;
+}
+h2.contact_class {
+  font-size: 14px;
+  color: #35261d;
   font-family: "monospace", "arial", serif;
 }
