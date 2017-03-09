@@ -104,7 +104,6 @@ p2{
   left: 0;
   bottom: 0;
   z-index: 10000;
-  /* so the menu or its navicon stays above all content */
   background-color: #422203;
   overflow-y: auto;
 }
@@ -235,9 +234,12 @@ ul{
     width: 60px;
     margin: 0;
   }
-  .header h1 {
+.header h1 {
   margin: 0 0 0 0;
-  font-size: 24px;
+  color: 280d021;
+  font-family: "Copperplate", "Copperplate Gothic Light", "fantasy", "arial", serif;
+  font-size: 2em;
+  font-weight: 300;
 }
 .header h2 {
   font-weight: 100;
