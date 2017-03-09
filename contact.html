@@ -5,12 +5,18 @@
 <body>
     <h1 class="contact_class" style="color:#3a3131;font-family: Garamond, Helvatica, Arial, serif;" >Contact Form</h1>
     <!-- FormSpree to send-->
-  <form action="https://formspree.io/holly@hackdfw.com">
-    Name: <input type="text" name="name" ><br><br>
+  <form id="contactform" action="https://formspree.io/holly@hackdfw.com" method="POST">
+    Name: <input type="text" name="name" placeholder="Linus Torvalds" ><br><br>
     <!-- _replyto is to let host to the respond to the person who originally submitted the form by email -->
-    Email: <input type="email" name="_replyto"><br><br>
+    Email: <input type="email" name="_replyto" placeholder="torvalds@transmeta.com "><br><br>
+    <textarea name="message" placeholder="Form Submitted."></textarea>
     <input type="submit" value="Send"><br>
+    <input type="hidden" name="_subject" value="Website contact" />
   </form>
+  <script>
+    var contactform =  document.getElementById('contactform');
+    contactform.setAttribute('action', '//formspree.io/' + 'your' + '@' + 'email' + '.' + 'com');
+</script>
 <p style="color:#3a3131;font-family: Garamond, Helvatica, Arial, serif;">The host will receive your contact information in due time. Thank you.</p>
 </body>
 </html>
