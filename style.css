@@ -229,32 +229,27 @@ ul{
     left: 60px;
   }
 }
-<!-- If the screen is less than or equal to 480px -->
+<!-- If the screen is less than or equal to 500px -->
 @media only screen and (max-width: 480px) {
   body{
-    background-color:#ffeae5;
+    background-color:#fcf2ef;
   }
   #menu{
     float: left;
-    width: 60px;
+    width: 58px;
     margin: 0;
   }
 .header h1 {
   margin: 0 0 0 0;
   color: 280d021;
-  font-family: "Fira Mono", "DejaVu Sans Mono", "Menlo, Consolas", "Liberation Mono", "Monaco", "Lucida Console", monospace;
-  font-size: 1.5em;
+  font-family: "Menlo, Consolas", "Liberation Mono", "Monaco", "Lucida Console", "monospace", serif;
+  font-size: 2.5em;
   font-weight: 800;
-}
-.header h2 {
-  font-weight: 100;
 }
 .content-subhead {
   margin: 25px 0 20px 0;
   font-family: "Rockwell", "Courier Bold", "Courier", "Georgia", "Times", "Times New Roman", serif;
-  font-weight: 600;
-  font-size: 8px;
   text-align: center;
-  color: #3a0909;
+  color: #3a1b09;
 }
 }
