@@ -194,9 +194,9 @@ ul{
   body{
     background-color: #fff2ef;
   }
-.header h1 {
+  .header h1 {
   font-size: 2em;
-}
+  }
   #menu{
     float:left;
     margin:0;
@@ -229,27 +229,21 @@ ul{
     left: 60px;
   }
 }
-<!-- If the screen is less than or equal to 500px -->
-@media only screen and (max-width: 480px) {
-  body{
+<!-- If the screen is less than or equal to 520 pixel -->
+@media only screen and (max-width: 520px) {
+  body {
     background-color:#fcf2ef;
   }
-  #menu{
+  #menu {
     float: left;
     width: 58px;
     margin: 0;
   }
-.header h1 {
-  margin: 0 0 0 0;
-  color: 280d021;
-  font-family: "Menlo, Consolas", "Liberation Mono", "Monaco", "Lucida Console", "monospace", serif;
-  font-size: 2.5em;
-  font-weight: 800;
-}
-.content-subhead {
-  margin: 25px 0 20px 0;
-  font-family: "Rockwell", "Courier Bold", "Courier", "Georgia", "Times", "Times New Roman", serif;
-  text-align: center;
-  color: #3a1b09;
-}
+  .header h1 {
+    margin: 0 0 0 0;
+    color: #d03b21;
+    font-family: "Fira Mono", "DejaVu Sans Mono", "Menlo, Consolas", "Liberation Mono", "Monaco", "Lucida Console", "monospace", serif;
+    font-size: 1.2em;
+    font-weight: 800;
+  }
 }
