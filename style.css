@@ -51,7 +51,7 @@ body {
 .header h1 {
   margin: 0 0 0.1em 0;
   color: #b25631;
-  font-family: "Didot", "Copperplate", "Copperplate Gothic Light", fantasy;
+  font-family: "Goudy Old Style", "Garamond", "Times New Roman", serif;
   font-size: 4em;
   font-weight: 900;
   text-align: center;
@@ -201,9 +201,6 @@ ul{
   body{
     background-color: #fff2ef;
   }
-  .header h1 {
-  font-size: 2em;
-  }
   #menu{
     float:left;
     margin:0;
@@ -245,12 +242,5 @@ ul{
     float: left;
     width: 58px;
     margin: 0;
-  }
-  .header h1 {
-    margin: 0 0 0 0;
-    color: #d03b21;
-    font-family: "Fira Mono", "DejaVu Sans Mono", "Menlo, Consolas", "Liberation Mono", "Monaco", "Lucida Console", "monospace", serif;
-    font-size: 1.2em;
-    font-weight: 800;
   }
 }
