@@ -1,5 +1,5 @@
 body {
-  background-color: #ddb961;
+  background-color: #ecb99b;
 }
 .pure-img-responsive {
   max-width: 100%;
@@ -52,14 +52,14 @@ body {
   margin: 0 0 0.1em 0;
   color: #422203;
   font-family: "Goudy Old Style", "Garamond", "Times New Roman", serif;
-  font-size: 4em;
+  font-size: 3.3em;
   font-weight: 900;
   text-align: center;
 }
 .header h2 {
-  font-weight: 300;
-  font-size: 18px;
-  font-family: "Cambria", "fantasy", "Palatino";
+  font-weight: 200;
+  font-size: 14px;
+  font-family: "Cambria", "fantasy", "Palatino", serif;
   color: #ed8763;
   padding: 0;
   margin-top: 0;
@@ -117,9 +117,9 @@ hr {
 }
 #menu a {
   float: left;
-  color: #ddb961;
+  color: #ecb99b;
   border: none;
-  font-family: "monaco", "Consolas", "Lucida Consola", Monospace;
+  font-family: "Monaco", "Consolas", "Lucida Consola", "Monospace", Serif;
   font-size: 7px;
   padding: 0.4em 0 0.4em 0;
 }
