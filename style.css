@@ -1,5 +1,5 @@
 body {
-  background-color: #fe998b;
+  background-color: #ddb961;
 }
 .pure-img-responsive {
   max-width: 100%;
@@ -117,7 +117,7 @@ hr {
 }
 #menu a {
   float: left;
-  color: #fe998b;
+  color: #ddb961;
   border: none;
   font-family: "monaco", "Consolas", "Lucida Consola", Monospace;
   font-size: 7px;
