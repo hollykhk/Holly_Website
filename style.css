@@ -99,7 +99,7 @@ hr {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     border-color: #CEA69A;
-} 
+}  
 #menu {
   float: left;
   cursor: pointer;
@@ -241,4 +241,8 @@ ul{
     width: 58px;
     margin: 0;
   }
+  .mainpic {
+   height: 280px;
+   width: 160px; 
+} 
 }
