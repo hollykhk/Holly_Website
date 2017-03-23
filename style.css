@@ -108,7 +108,7 @@ hr {
   cursor: pointer;
   text-align: center;
   margin-left: -35px;
-  width: 80px;
+  width: 88px;
   padding: 12px 6px;
   position: fixed;
   top: 0;
@@ -123,8 +123,8 @@ hr {
   color: #ecb99b;
   border: none;
   font-family: "Monaco", "Consolas", "Lucida Consola", "Monospace", Serif;
-  font-size: 7px;
-  padding: 0.4em 0 0.4em 0;
+  font-size: 8px;
+  padding: 0.5em 0.2em 0.4em 0;
 }
 #menu .pure-menu,
 #menu .pure-menu ul {
