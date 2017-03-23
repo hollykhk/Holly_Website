@@ -6,8 +6,8 @@ body {
   height: auto;
 }
 #menu{
-    margin-left: 55px;
     margin: 0;
+    margin-left: 55px;
 }
 #layout,
 #menu,
@@ -235,7 +235,7 @@ ul{
 }
 @media only screen and (max-width: 520px) {
   body {
-    background-color:#fcf2ef;
+    background-color:#ecb99c;
   }
   #menu {
     float: left;
@@ -248,5 +248,5 @@ ul{
   } 
 }
 @media screen and (max-width: 640px) {
-  .header h1 {font-size: 1.6em;}
+  .header h1 {font-size: 1.8em;}
 }
