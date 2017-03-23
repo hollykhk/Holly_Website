@@ -6,6 +6,7 @@ body {
   height: auto;
 }
 #menu{
+    margin-left: 55px;
     margin: 0;
 }
 #layout,
@@ -64,6 +65,9 @@ body {
   padding: 0;
   margin-top: 0;
   text-align: center;
+}
+.content-paragraph img {
+  max-width: 100%;
 }
 p1{
   color: #633a24;
@@ -194,7 +198,6 @@ hr {
 ul{
   list-style-type: none;
   }
-<!-- If the screen is less than or equal to 760px like smaller than tablets -->
 @media only screen and (device-width:760px) {
   body{
     background-color: #fff2ef;
@@ -204,7 +207,6 @@ ul{
     margin:0;
   }
 }
-<!-- If screen is greater than or equal to 480px like larger than phones -->
 @media only screen and (min-width: 480px) {
   .header,
   .content {
@@ -231,7 +233,6 @@ ul{
     left: 60px;
   }
 }
-<!-- If the screen is less than or equal to 520 pixel -->
 @media only screen and (max-width: 520px) {
   body {
     background-color:#fcf2ef;
@@ -244,5 +245,8 @@ ul{
   .mainpic {
    height: 280px;
    width: 160px; 
-} 
+  } 
+}
+@media screen and (max-width: 640px) {
+  .header h1 {font-size: 1.6em;}
 }
