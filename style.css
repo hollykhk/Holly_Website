@@ -22,15 +22,6 @@ body {
   left: 3px;
   padding-left: 0;
 }
-#layout.active #menu {
-  left: 60px;
-  width: 60px;
-  display: block;
-}
-#layout.active .menu-link {
-  left: 60px;
-  display: block;
-}
 .content {
   font-size: 10px;
   margin: 0 auto;
@@ -49,7 +40,7 @@ body {
   text-align: center;
 }
 .header h1 {
-  margin: 0 0 0.1em 0;
+  margin: 2.5em 0 0.1em 0;
   color: #422203;
   font-family: "Goudy Old Style", "Garamond", "Times New Roman", serif;
   font-size: 3.3em;
@@ -91,9 +82,9 @@ p2{
   text-align: center;
 }
 .content-subhead {
-  margin: 25px 0 20px 0;
+  margin: 5px 0 20px 0;
   font-family: "Rockwell", "Courier Bold", "Courier", "Georgia", "Times", "Times New Roman", Serif;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 18px;
   text-align: center;
   color: #422813;
@@ -104,7 +95,6 @@ hr {
     border-color: #CEA69A;
 }  
 #menu {
-  float: left;
   cursor: pointer;
   text-align: center;
   margin-left: -35px;
@@ -123,8 +113,6 @@ hr {
   color: #ecb99b;
   border: none;
   font-family: "Monaco", "Consolas", "Lucida Consola", "Monospace", Serif;
-  font-size: 8px;
-  padding: 0.5em 0.2em 0.4em 0;
 }
 #menu .pure-menu,
 #menu .pure-menu ul {
@@ -138,13 +126,10 @@ hr {
   text-decoration: none;
 }
 #menu .pure-menu-selected a {
-  float: left;
   color: #fff;
 }
 #menu .pure-menu-heading {
-  float: right;
   text-decoration: none;
-  font-size: 85%;
   font-family: "Glocester", "Baskerville", "Open Sans", "Arial", "Swiss", "Ubuntu", Sans-serif;
   color: #f9ede8;
   margin: 0;
@@ -155,21 +140,16 @@ hr {
 .pure-menu-item{
   float: left;
   margin-left = -30px;
-  margin-top: 10px;
-  text-align: justify;
   list-style-type: none;
 }
 .menu-link {
   position: fixed;
-  display: block;
   top: 0;
   left: 0;
   background-color: #ffd2c9;
   font-family: "Open Sans", "Swiss", "Ubuntu", "Arial", Sans-serif;
   font-size: 18px;
-  z-index: 10;
   height: auto;
-  padding: 0.3em 0.3em;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -177,22 +157,15 @@ hr {
 }
 .menu-link span {
   position: relative;
-  display: block;
 }
 .menu-link span,
 .menu-link span:before,
 .menu-link span:after {
   background-color: #fff;
-  width: 50%;
 }
 .menu-link span:before,
 .menu-link span:after {
   position: absolute;
-  margin-top: -0.4em;
-  content: " ";
-}
-.menu-link span:after {
-  margin-top: 0.4em;
 }
 ul{
   list-style-type: none;
@@ -201,10 +174,6 @@ ul{
   body{
     background-color: #fff2ef;
   }
-  #menu{
-    float:left;
-    margin:0;
-  }
 }
 @media screen and (min-width: 480px) {
   .header,
@@ -212,34 +181,10 @@ ul{
     padding-left: 1em;
     padding-right: 1em;
   }
-  #layout {
-    padding-left: 60px;
-    left: 0;
-  }
-  #menu {
-    float: left;
-    margin:0;
-    left: 60px;
-  }
-  .menu-link {
-    float: left;
-    position: fixed;
-    left: 60px;
-    display: block;
-  }
-  #layout.active .menu-link {
-    float: left;
-    left: 60px;
-  }
 }
 @media screen and (max-width: 520px) {
   body {
     background-color:#ecb99c;
-  }
-  #menu {
-    float: left;
-    width: 58px;
-    margin: 0;
   }
   .mainpic {
    height: 280px;
