@@ -96,14 +96,9 @@ hr {
 }  
 #menu {
   cursor: pointer;
-  text-align: center;
-  margin-left: -35px;
-  width: 88px;
-  padding: 12px 6px;
   position: fixed;
   top: 0;
   left: 0;
-  bottom: 0;
   z-index: 10000;
   background-color: #422203;
   overflow-y: auto;
