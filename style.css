@@ -99,6 +99,7 @@ hr {
   position: fixed;
   top: 0;
   left: 0;
+  right: 0;
   z-index: 10000;
   background-color: #422203;
   overflow-y: auto;
@@ -107,6 +108,8 @@ hr {
   float: left;
   color: #ecb99b;
   border: none;
+  padding: 2px 6px;
+  font-size: 9px;
   font-family: "Monaco", "Consolas", "Lucida Consola", "Monospace", Serif;
 }
 #menu .pure-menu,
