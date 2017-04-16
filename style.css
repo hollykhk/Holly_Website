@@ -63,21 +63,21 @@ p1{
   color: #633a24;
   list-style-type: none;
   font-weight: 400;
-  font-family: "Rockwell", "Courier Bold", "Courier", "Georgia", "Times", "Times New Roman", serif;
+  font-family: "Rockwell", "Courier Bold", "Courier", "Georgia", "Times", "Times New Roman", Serif;
   font-size: 11px;
   text-align: center;
 }
 p2{
   color: #381605;
   list-style-type: none;
-  font-family: "Rockwell", "Courier Bold", "Courier", "Georgia", "Times", "Times New Roman", serif;
+  font-family: "Rockwell", "Courier Bold", "Courier", "Georgia", "Times", "Times New Roman", Serif;
   font-size: 12px;
   text-align: center;
 }
 .content-paragraph {
   color: #56260e;
   list-style-type: none;
-  font-family: "Rockwell", "Courier Bold", "Courier", "Georgia", "Times", "Times New Roman", serif;
+  font-family: "Rockwell", "Courier Bold", "Courier", "Georgia", "Times", "Times New Roman", Serif;
   font-size: 10px;
   text-align: center;
 }
@@ -108,9 +108,9 @@ hr {
   float: left;
   color: #ecb99b;
   border: none;
-  padding: 2px 6px;
+  padding: 2px 7px;
   font-size: 10px;
-  font-family: "Monaco", "Consolas", "Lucida Consola", "Monospace", Serif;
+  font-family: "Lucida Consola", "Consolas", "Monaco", "Monospace", Serif;
 }
 #menu .pure-menu,
 #menu .pure-menu ul {
