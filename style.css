@@ -1,5 +1,5 @@
 body {
-  background-color: #ecb99b;
+  background-color: #e7b99c;
 }
 .pure-img-responsive {
   max-width: 100%;
@@ -36,7 +36,7 @@ body {
   text-align: center;
   font-family: "Palatino", "Palatino Linotype", "Palatino LT STD", "Book Antiqua", "Georgia", serif;
   padding: 0.5em 2em 0.1em 1em;
-  border-bottom: 0.1px solid #eda863;
+  border-bottom: 0.1px solid #eda883;
   text-align: center;
 }
 .header h1 {
@@ -48,7 +48,7 @@ body {
   text-align: center;
 }
 .header h2 {
-  font-weight: 200;
+  font-weight: 100;
   font-size: 14px;
   font-family: "Cambria", "fantasy", "Palatino", serif;
   color: #ed8763;
@@ -110,7 +110,7 @@ hr {
   border: none;
   padding: 2px 7px;
   font-size: 10px;
-  font-family: "Lucida Consola", "Consolas", "Monaco", "Monospace", Serif;
+  font-family: "Tahoma", "Helvetica", "Verdana", Sans-serif;
 }
 #menu .pure-menu,
 #menu .pure-menu ul {
@@ -128,14 +128,14 @@ hr {
 }
 #menu .pure-menu-heading {
   text-decoration: none;
-  font-family: "Glocester", "Baskerville", "Open Sans", "Arial", "Swiss", "Ubuntu", Sans-serif;
+  font-family: "Glocester", "Baskerville", "Arial", "Swiss", "Ubuntu", Sans-serif;
   color: #f9ede8;
   margin: 0;
 }
-.pure-menu-item a{
+.pure-menu-item a {
   text-decoration: none;
 }
-.pure-menu-item{
+.pure-menu-item {
   float: left;
   margin-left = -30px;
   list-style-type: none;
