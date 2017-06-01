@@ -1,3 +1,5 @@
+/* JavaScript for menu bar */
+
 (function(window, document) {
   var layout = document.getElementById('layout'),
     menu = document.getElementById('menu'),
