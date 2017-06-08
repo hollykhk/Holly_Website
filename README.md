@@ -1,9 +1,10 @@
 ## Personal Website ##
-Lived at www.hollykwan.com
-
-
+Author : * HOLLY KWAN
+              * www.hollykwan.com
+              * Link to
+                  * PICTURES
+                  * DEVPOST
 ## Description ##
-__Visit Holly's personal website is a good way to get to know more about Holly Kwan.__
-__View Holly's personal informations such as past projects, resume, and more.__
+__View Holly's informations such as past projects, resume, and more.__
 
 ___Copyright © 2017 Holly Kwan. All Right Reserved.___
