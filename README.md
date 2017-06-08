@@ -1,8 +1,8 @@
 ## Personal Website ##
 * Author : HOLLY KWAN
 * URL : www.hollykwan.com
- * 1. PICTURES
- * 2. DEVPOST                 
+   * PICTURES
+   * DEVPOST                 
                   
 ## Description ##
 __View Holly's informations such as past projects, resume, and more.__
