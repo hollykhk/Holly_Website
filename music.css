@@ -1,0 +1,23 @@
+body{
+  background-color: #f4cfa4;
+  text-align: center;
+}
+h1{
+  font-size: 14px;
+  color: #160f0d;
+  text-align: center;
+  font-family: "Garamond", "Baskerville", "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+}
+ul{
+    list-style-type: none;  
+    text-align: center;
+}
+#return-back a.return-class{
+    list-style-type: none outside none;
+    font-size: 24px;
+    font-family: "Verdana", "Swiss", "Ubuntu", "Fantasy", "Arial", "Cambria";
+    text-align: center;
+    color: #160f0d;
+    font-weight: 600;
+    text-decoration: none;
+}
