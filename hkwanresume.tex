@@ -1,55 +1,86 @@
-\documentclass[10pt,a4paper,sans]{article}
-\renewcommand\maketitle{}
-\usepackage[left=0.75in,top=0.5in,right=0.75in,bottom=0.5in]{geometry}
-\usepackage{amsmath}
-\usepackage{titlesec}
-\usepackage[utf8]{inputenc}
-\newcommand{\tab}[1]{\hspace{.0667\textwidth}\rlap{#1}}
-\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
-\author{Holly Kwan}
-\usepackage{natbib}
-\usepackage{graphicx}
-\textheight=1000pt
+\documentclass[10pt,a4paper, typewriter]{resume} % Use the custom resume.cls style
+\usepackage[left=0.75in,top=0.5in,right=0.75in,bottom=0.5in]{geometry} % Document margins
+\name{Holly Kwan} % Your name
+\address{Dallas, TX 75252 | hxk132830@utdallas.edu} % Your address and email
+\address{ hollykwan.com | Github: hollykhk | Devpost: hollykhk}
 \begin{document}
-\begin{center}
-\fontsize{10}{12}
-{\textbf {Holly Kwan} \\
-\textbf {Email:} hxk132830@utdallas.edu \textbf {Web:} hollykwan.com  }\\ 
-\textbf {Github:} hollykhk \textbf {Devpost:} hollykhk \\
-\end{center}
-\maketitle
-\section{Education}
-{\bf The University of Texas at Dallas, Richardson, TX} \hfill {\em August 2013 - May 2018} 
-\\ Bachelor of Science in Computer Science\hfill {  }
-\\
-\\{\bf Bellaire High School, Bellaire, TX} \hfill {\em August 2009 - May 2013} 
-\\ 8 Advanced Placement Classes\hfill {  }
-\section{Skills}
-\textbf{Programming:} C++, Java, Verilog, HTML, CSS \\
-\textbf{Framework \& Tools:} Node, Angular, Git, Linux, Latex 
-\section{Projects}
-{\bf Smart ID} \hfill {\em Jan 2017 - Feb 2017}
-\begin{itemize}
-    \item Implemented an application to facilitate the business of card management for a digital identity system and won final challenge of a programming contest for an university workshop.
-\end{itemize}
-\section{Awards}
-{\bf Foodie} \hfill {\em Oct 2016}
-\begin{itemize}
-    \item Developed an Android Application to help customers to make better dietary and culinary choices utilize OCR technology, Duck Duck Go API, and George Knowledge Graph API with Python. 
-\end{itemize}
-\section{Certification}
-{\bf IEEE Software Testing} \hfill {\em Jan 2018 - Feb 2018}
-\begin{itemize}
-    \item Implemented a series of test case to evaluate the the Java program and optimize branch coverage using JUnit.
-\end{itemize}
-\section{Activities}
-{\bf User Experience Club - Treasurer} \hfill {\em Jan 2017 - May 2017}
-\begin{itemize}
-    \item Managed the fiscal operation and allocated necessary expenses for educational activities.
-\end{itemize}
-\section{Experience}
-{\bf UT Dallas | The Mercury} \hfill {\em September 2015 - October 2016}
-\begin{itemize}
-    \item Distributed hundred of newspapers to campus and community.
-\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Education}
+{\bf The University of Texas at Dallas, Richardson, TX} \hfill {\em August 2013 - May 2018} \\ 
+B.S. in Computer Science \\
+{\bf The Bellaire High School, Bellaire, TX} \hfill {\em August 2009 - May 2013} \\ 
+8 Advanced Placement Classes
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Experience}
+\begin{rSubsection}{CS Outreach - UT Dallas}{September 2017 - November 2017}{Instructor}{Richardson, TX}
+\item Taught a class twenty of students computer science using MIT Scratch.
+\item Advised students to use MIT Scratch at their leisure time. 
+\end{rSubsection}
+%------------------------------------------------
+\begin{rSubsection}{The Mercury - UT Dallas - Student Media}{September 2015 - October 2016}{Student Media Worker}{Richardson, TX}
+\item Distributed hundred of newspapers to university and community to educate students on news on campus and managed a booth on campus to promote the Student Media to faculties, students, and staffs.
+\end{rSubsection}
+%------------------------------------------------
+\begin{rSubsection}{Height Family Aquatic Center - The City of Richardson}{May 2016 - August 2016}{Lifeguard}{Richardson, TX}
+\item Supervised hundred of swimmers and managed the pool grounds at the City of Richardson.
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS & AWARDS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{PROJECTS | AWARDS}
+\begin{rSubsection}{Smart ID - University workshop}{September 2017 - November 2017}{1st place}{Richardson, TX}
+\item Implemented an application to facilitate the business of card management for a digital identity system.
+\item Received a winning honor solely by competing against a class of thirty students.
+\end{rSubsection}
+%------------------------------------------------
+\begin{rSubsection}{Foodie - TAMUhack}{October 2016}{Top 10 Hack and Best Use of Google API Prize}{College Station, TX}
+\item Developed an Android Application to help customers to make better dietary and culinary choices utilize OCR technology, Duck Duck Go API, and George Knowledge Graph API with Python. 
+\end{rSubsection}
+%------------------------------------------------
+\begin{rSubsection}{CrashBoulder - HackCU III}{May 2016 - August 2016}{}{}
+\item Built a web application of Colorado transportation recommendations using AngularJS and NodeJS.
+\end{rSubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	CERTIFICATIONS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{ACTIVITIES | CERTIFICATIONS}
+\begin{rSubsection}{IEEE Software Testing - JUnit}{September 2017 - November 2017}{}{}
+\item Implemented a series of test cases to evaluate the Java program and optimize branch coverage.
+\end{rSubsection}
+\begin{rSubsection}{User Experience Club - UT Dallas}{September 2017 - November 2017}{Treasurer}{Richardson, TX}
+\item Managed the fiscal operation and allocated necessary expenses for educational activities.
+\end{rSubsection}
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Technical Strengths}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Computer Languages & C++, Java, Verilog, HTML, CSS \\
+Tools & Node, Angular, Git, Linux, Latex 
+\end{tabular}
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
 \end{document}
